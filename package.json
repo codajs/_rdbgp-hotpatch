@@ -1,0 +1,23 @@
+{
+  "name": "rdbgp-hotpatch",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Casper Beyer <contact@caspervonb.com>",
+  "main": "lib/rdbgp-hotpatch.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fsobserve": "github:codajs/fsobserve"
+  },
+  "devDependencies": {
+    "rdbgp": "github:codajs/rdbgp"
+  },
+  "peerDependencies": {
+    "rdbgp": "github:codajs/rdbgp"
+  }
+}
